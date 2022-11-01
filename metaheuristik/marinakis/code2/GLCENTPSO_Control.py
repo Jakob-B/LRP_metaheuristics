@@ -24,7 +24,7 @@ class ClassGLCENTPSO():
     def execute(self, iterations: int, useCNTMP, useVNS, useVNSMP, liveGraph):
         instance = self.instance
         print(instance)
-        instance.useYangRoutingCost = False
+        instance.useYangRoutingCost = True
         starttime = datetime.now()
         print("Starttime: " +str(starttime))
         #GLCENTPSOmain = GLCENTPSOmainClass(instance)
