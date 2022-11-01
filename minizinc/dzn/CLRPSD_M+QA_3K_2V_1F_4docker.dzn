@@ -1,0 +1,26 @@
+num_nodes = 4;
+% Depots
+nodes = {1,2,3,4};
+num_facilities = 1;
+facilities = {1};
+storageCapacity = [100];
+fixcost = [0];
+% Vehicles
+num_vehicles = 2;
+vehicles = {1,2};
+utilityCost = [0,500];
+transportCapacity = 2;
+% Customers
+num_customers = 3;
+customers = {2,3,4};
+demandProb = array2d(customers, 0..transportCapacity, [0,1,0, 
+0,1,0, 
+0,0,1]);
+% Travel Cost
+travelCost = array2d(nodes, nodes,[0,9,10,4, 
+9,0,2,13,
+10,2,0,7, 
+4,13,7,0]);
+
+numSubsets = 7;
+customersInSubset = [{2}, {3}, {2, 3}, {4}, {2, 4}, {3, 4}, {2, 3,4}];

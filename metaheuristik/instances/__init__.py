@@ -1,0 +1,12 @@
+from .An32k1 import createInstance as An32k1Create
+from .An32k5 import createInstance as An32k5Create
+from .Barreto_Christofides69_50x5 import createInstance as Christo50x5Create
+from .Barreto_Gaskell67_21x5 import createInstance as Gaskell21x5Create
+from .Barreto_Perl12x2 import createInstance as Perl12x2Create
+from .Barreto_Perl12x2_sd import createInstance as Perl12x2sdCreate
+from .Barreto_Gaskell67_21x5sd import createInstance as Gaskell21x5sdCreate
+from .Barreto_Perl55x15 import createInstance as Perl55x15Create
+from .Barreto_Christofides69_100x10 import createInstance as Christo100x10Create
+from .Barreto_Perl12x2_sd_poisson import createInstance as Perl12x2sdPoissonCreate
+from .Barreto_Gaskell67_21x5sd_poisson import createInstance as Gaskell21x5sdPoissonCreate
+from .Barreto_Gaskell67_32x5sd import createInstance as Gaskell32x5sd
